@@ -30,6 +30,8 @@
             `font-size: 12px;`        
             `}`
 
+---
+
 - Css pode ser interno (dentro do HTML) ou externo (fora do HTML), vinculando a página CSS.
 
 - Alinhamento do texto:
@@ -57,18 +59,18 @@
 
    - Relativo
 
-    - %  - img
-    - em
-    - ex
-    - px - img
+     - %  - img
+     - em
+     - ex
+     - px - img
 
    - Absoluto
     
-    - in
-    - cm
-    - mm
-    - pt - fontes
-    - pc
+     - in
+     - cm
+     - mm
+     - pt - fontes
+     - pc
 
 ---
 
@@ -137,6 +139,8 @@ link ativo - ao clicar
     `color:#610345;`
 `}`
 
+---
+
 - Listas com imagens
 
 Na tag <ul>
@@ -148,6 +152,8 @@ lista com imagem
 posição da imagem
 
 `list-style-position: inside;`
+
+---
 
 - Lista com marcadores
 
@@ -182,30 +188,39 @@ números romanos maiúsculo
 `list-style-type: lower-latin;`
 `list-style-type: upper-latin;`
 
-- Menus pronto CSS
+--- 
+
+- Menus prontos CSS
 
 http://cssmenumaker.com/free-css-menus
+
+---
 
 ## Media Query
 
 - Responsividade
+
+---
 
 ## Div
 
 - Posicionamento
 
 ---
+
 propriedade: valor;
 
-`border-style: solid;`
-`border-style: dotted;`
+- `border-style: solid;`
+- `border-style: dotted;`
 
-`border-width: 2px;`
+- `border-width: 2px;`
 
-posição fixa
+- posição fixa: 
 `position: absolute;`
 
-Referência:
+---
+
+Referências:
 
 https://www.w3schools.com/css/css_boxmodel.asp
 
