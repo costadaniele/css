@@ -1,0 +1,16 @@
+
+body {
+    background: #610345;
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        background: #107e7d;
+    }
+}
+    @media screen and (min-width: 900px) {
+        body {
+            background: #e3b505;
+        }
+}

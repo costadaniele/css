@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    background: #d1d1d1;
+    color: #4c4c4c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18pt;
+}
+
+p .class2 {
+     /* espaçamento - unidades de medida */
+    
+     letter-spacing: 0.5em;
+     
+}
+
+h1 {
+    font-weight: bold;
+    /*sombra
+        cor deslocamento a direita deslocamento para baixo esfumaçado
+    */
+    text-shadow: blue 15px 30px 2px;
+    
+}
+
+
+p, h1, h2  {
+    
+    /* alinhamento do texto 
+
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+  
+    */
+    text-align: center; 
+}
+
+.linha-inferior {
+    text-decoration: underline;
+}
+
+.linha-superior {
+    text-decoration: overline;
+}
+
+.linha-centro {
+    text-decoration: line-through;
+}
+
+a:link {
+    color: #044b7f;
+}
+
+/*quando o link for visitado*/
+a:visited {
+    color: green;
+}
+
+/*quando passa o mouse*/
+a:hover {
+    color: #95190c;
+}
+
+/*link ativo - ao clicar */
+a:active {
+    color:#610345;
+}
+
+

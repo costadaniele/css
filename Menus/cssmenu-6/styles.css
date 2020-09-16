@@ -1,0 +1,62 @@
+#cssmenu {
+  display: inline-block;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#cssmenu ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul li {
+  position: relative;
+}
+#cssmenu ul li:not(:first-child) {
+  padding-left: 20px;
+}
+#cssmenu ul li:not(:first-child):before,
+#cssmenu ul li:not(:first-child):after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 1.5px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(-50%) rotate(30deg);
+  -ms-transform: translateY(-50%) rotate(30deg);
+  transform: translateY(-50%) rotate(30deg);
+}
+#cssmenu ul li:not(:first-child):before {
+  left: 5.25px;
+}
+#cssmenu ul li:not(:first-child):after {
+  left: 13.25px;
+}
+#cssmenu ul li.active a,
+#cssmenu ul li.active a:hover {
+  color: #f1593f;
+}
+#cssmenu ul li a {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: 600;
+  color: #464951;
+  padding: 18px 25px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#cssmenu ul li a:hover {
+  color: #757a88;
+}
+#cssmenu ul li a i {
+  -webkit-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  transform: scale(1.4);
+}
